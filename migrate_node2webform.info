@@ -1,0 +1,11 @@
+name = Migrate Node-to-Webform
+description = Converts Drupal 6 nodes to Drupal 7 webform submissions
+package = Migration
+core = 7.x
+
+dependencies[] = migrate
+dependencies[] = migrate_d2d
+dependencies[] = webform
+
+files[] = includes/migrations.inc
+files[] = includes/destinations.inc
